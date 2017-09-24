@@ -1,0 +1,17 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+a, button {
+    display: inline-block;
+    padding: 1em;
+    border: 1px solid blue;
+}
+pre {
+    font-family: Menlo, Monaco, monospace;
+    border: 1px dashed #EEE;
+    padding: 1em;
+}
+
+h1, h2, h3, h4 {
+	padding: 1em 0;
+}
