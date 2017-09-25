@@ -3,6 +3,7 @@
 		"target": "es5",
 		"module": "es2015",
 		"moduleResolution": "node",
+		"outDir": "./dist/libs/",
 		"declaration": true, // triggers the generation of the typings *.d.ts files, that enable IDE Intellisense
 		"sourceMap": true,
 		"experimentalDecorators": true,

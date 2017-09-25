@@ -8,7 +8,7 @@ module.exports = {
         'polyfills': './deps/polyfills.ts' // Polyfills like Core.js, Zone.js
     },
     output: {
-        path: path.resolve(__dirname, "dist"), // string
+        path: path.resolve(__dirname, "dist/libs"), // string
         // the target directory for all output files
         // must be an absolute path (use the Node.js path module)
 

@@ -4,10 +4,11 @@
 	"scripts": {
 		"start": "node server.js",
 		"webpack": "webpack -w",
-		"start:prod": "webpack -p",
+		"webpack:prod": "webpack -p",
 		"css": "node-sass src/assets/scss/ -o dist/assets/css/",
 		"css:watch": "node-sass -w src/assets/scss/ -o dist/assets/css/",
-		"copy": "cp -R package.json dist/"
+		"scss": "node-sass -w --output-style compressed -o dist/assets/css src/assets/scss",
+		"copy": "copyfiles -f ./src/*.html dist"
 	},
 	"dependencies": {
 		"@angular/common": "^4.4.3",
