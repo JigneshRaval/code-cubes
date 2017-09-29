@@ -37,6 +37,15 @@ module.exports = {
     plugins: [
         new webpack.optimize.CommonsChunkPlugin({
             name: ['app', 'libs', 'polyfills']
+        }),
+        new webpack.optimize.UglifyJsPlugin({ // Used for Tree Shaking
+            compress: {
+                warnings: true
+            },
+            output: {
+                comments: false
+            },
+            sourceMap: false
         })
     ],
     module: {

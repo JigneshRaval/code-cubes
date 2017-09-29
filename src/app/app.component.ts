@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
 	selector: 'my-app',
 	template: `
 		<div class="container">
-			<p>Hello Angular 4</p>
+			<p>Hello Angular 4! Hi</p>
 		</div>
     `,
 	styleUrls: [],
